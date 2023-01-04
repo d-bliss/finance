@@ -12,9 +12,9 @@ The exercise proposes the following:
 * Complete the implementation of **index** in such a way that it displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also display the user’s current cash balance along with a grand total (i.e., stocks' total value plus cash).
 * Complete the implementation of **history** in such a way that it displays an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell.
 
-Personal Touch
+Personal Touch:
 
-We were instructed to implement at least one personal touch of your choice. I chose to require that the users’ passwords to have some number of letters, numbers, and/or symbols which I implimented via this code in the app.py file. 
+We were instructed to implement at least one personal touch of your choice. I chose to require that the users’ passwords to have some number of letters, numbers, and/or symbols which I implimented via the below code in the app.py file. 
 
     # Check if password meets complexity requirements
         if not re.match(r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$", password):
@@ -26,7 +26,7 @@ We were instructed to implement at least one personal touch of your choice. I ch
 - HTML for website strcuture 
 - Bootstrap & CSS for design
 - <a href="https://iexcloud.io/">IEX API</a> to get the stocks valus in real time
-- sqlite3 for storing users information (username and hashed password) and the transaction record (bought or sold)
+- SQLite & sqlite3 for storing users information (username and hashed password) and the transaction record (bought or sold)
 
 ## Website:
 
@@ -51,5 +51,5 @@ Once a user is registered they are allocated $10000 by default.
 ![image](readme-images/sell.png)
 
 - History page (Shows a history for your accounts buying and selling):
-![image](readme-images/.history.png)
+![image](readme-images/history.png)
 
