@@ -1,7 +1,7 @@
 # CS50 Finance (Week9: Problem Set)
 
 ## Introduction
-This is the one of the exercise from CS50x - Introduction for Computer Science: <a href="https://cs50.harvard.edu/x/2023/psets/9/finance/">Exercise detail</a>
+This is the one of the exercise from CS50x - Introduction for Computer Science: <a href="https://cs50.harvard.edu/x/2023/psets/9/finance/">See exercise details from Harvard's CS50 here</a>
 
 The exercise proposes the following:
 * Implement a web application that enables the user to "buy" and "sell" stocks, following the criteria below:
@@ -12,7 +12,7 @@ The exercise proposes the following:
 * Complete the implementation of **index** in such a way that it displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also display the user’s current cash balance along with a grand total (i.e., stocks' total value plus cash).
 * Complete the implementation of **history** in such a way that it displays an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell.
 
-###Personal Touch
+Personal Touch
 
 We were instructed to implement at least one personal touch of your choice. I chose to require that the users’ passwords to have some number of letters, numbers, and/or symbols which I implimented via this code in the app.py file. 
 
