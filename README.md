@@ -42,7 +42,7 @@ Once a user is registered they are allocated $10000 by default.
 ![image](readme-images/index.png)
 
 - Quote page (Provides and input for the stock symbol to check an individual stocks current price info via an api):
-![image](readme-images/quote.png)
+![image](readme-images/quote .png)
 
 - Buy page (Privides an input for a stock symbol and number of shares the user would like to buy):
 ![image](readme-images/buy.png)
